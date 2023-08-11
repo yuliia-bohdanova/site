@@ -18,7 +18,7 @@
   z-index: 1;
 }
 
-.effect{
+/* .effect{
     height: 70vh;
     width: 100%;
     position: absolute;
@@ -27,7 +27,7 @@
     object-fit: cover;
     z-index: 2;
 background-color: rgba(62, 77, 121, 0.116);
-}
+} */
 
 .video-text {
   color:rgb(37, 27, 54);
