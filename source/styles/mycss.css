@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+body {
+  font-family: Poppins, serif;
+  background: linear-gradient(169deg, #56C5FF 0%, #F9C1FF 100%);
+}
+
+body a {
+  color: rgb(110, 82, 223);
+  text-decoration: none;
+}
+
+.navbar.navbar-expand-lg {
+  background-color: rgb(90, 52, 150);
+}
+
+.nav-link {
+  color: rgb(116, 200, 248);
+}
+
+.nav-link.active {
+  color: rgb(108, 111, 110);
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+.navbar-toggler {
+  background-color: rgb(71, 183, 248);
+  /* border-style: none; */
+}
+
+.sidebar {
+  color: rgb(37, 27, 54);
+  background-color: #ffffff5e;
+
+}
+
+.btn {
+  background-color: rgb(72, 138, 236);
+}
+
+.btn {
+  margin: 0 auto;
+  display: block;
+}
+
+.card {
+  background-color: #ffffff5e;
+  color: rgb(37, 27, 54);
+
+}
+
+.card a {
+  color: rgb(37, 27, 54);
+}
+
+.slide-text,
+.footer-text {
+  color: rgb(37, 27, 54);
+  margin: auto auto;
+}
+
+
+/* .img-size {
+  width: 350px;
+} */
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-anima {
+  animation: call 5s ease 0s infinite alternate none;
+}
+
+@keyframes call {
+
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateX(-10px) rotate(-4deg);
+  }
+
+  30% {
+    transform: translateX(8px) rotate(4deg);
+  }
+
+  45% {
+    transform: translateX(-8px) rotate(-2deg);
+  }
+
+  60% {
+    transform: translateX(6px) rotate(2.4deg);
+  }
+
+  75% {
+    transform: translateX(-3px) rotate(-1.2deg);
+  }
+}
+
+
+
+
+@media (max-width: 750px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
